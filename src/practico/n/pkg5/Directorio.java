@@ -1,7 +1,7 @@
 /*
 
  */
-package modelo;
+package practico.n.pkg5;
 
 import java.util.ArrayList;
 import java.util.Map;
