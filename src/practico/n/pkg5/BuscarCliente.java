@@ -9,6 +9,7 @@ package practico.n.pkg5;
  *
  * @author anna
  */
+} 
 public class BuscarCliente extends javax.swing.JInternalFrame {
 
     /**

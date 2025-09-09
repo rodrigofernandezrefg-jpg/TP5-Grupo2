@@ -12,6 +12,9 @@
  */
 package practico.n.pkg5;
 
+import javax.swing.JComboBox;
+import javax.swing.JTextField;
+
 public class Cliente {
     private long dni;
     private String nombre;
@@ -25,6 +28,10 @@ public class Cliente {
         this.apellido = apellido;
         this.ciudad = ciudad;
         this.direccion = direccion;
+    }
+
+    Cliente(JTextField Dni, JTextField TextNombre, JTextField apellido, JComboBox<String> ciudad, JTextField Domicilio) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public long getDni() { return dni; }
